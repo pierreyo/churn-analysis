@@ -1,10 +1,10 @@
 # Churn Prediction for Bank Customers
 
-Project Overview
+# Project Overview
 
 This project focuses on predicting customer churn in a banking dataset using various machine learning models. We analyze customer features, explore different modeling approaches, and compare performance with and without Synthetic Minority Over-sampling Technique (SMOTE).
 
-Dataset
+# Dataset
 
 The dataset consists of customer information such as:
 
