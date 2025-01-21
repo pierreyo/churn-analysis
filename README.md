@@ -16,27 +16,27 @@ Target Variable: Exited (1 = Churn, 0 = Retained)
 
 Exploratory Data Analysis (EDA)
 
-1. Initial Analysis
+# 1. Initial Analysis
 
 Checked for missing values
 
 Performed basic statistical summaries
 
-2. Numerical Feature Visualization
+# 2. Numerical Feature Visualization
 
 Distribution plots
 
 Correlation heatmaps
 
-3. Categorical Feature Visualization
+# 3. Categorical Feature Visualization
 
 Count plots
 
 Churn distribution across categories
 
-Machine Learning Models
+# Machine Learning Models
 
-1. Models Used
+# 1. Models Used
 
 We trained and compared the following models:
 
@@ -48,11 +48,11 @@ Random Forest with RandomizedSearchCV
 
 XGBoost
 
-2. Models with and without SMOTE
+# 2. Models with and without SMOTE
 
 We tested models with and without SMOTE to balance the dataset.
 
-Key Findings:
+# Key Findings:
 
 Random Forest without SMOTE performed best, achieving 86% accuracy.
 
@@ -66,13 +66,11 @@ Accuracy: 86%
 
 Confusion Matrix: High precision but lower recall for churn cases
 
-Feature Importance (SHAP Analysis):
 
-Age and Number of Products were key predictors
 
 Balance and Credit Score also had strong influence
 
-Conclusion
+# Conclusion
 
 Random Forest without SMOTE is the best model, striking a balance between accuracy and churn detection.
 
